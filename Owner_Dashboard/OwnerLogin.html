@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="login_logo d-flex justify-content-center my-5">
+      <div class="login_logo-line"></div>
+      <img src="/assets/img/logo.png" alt="logo" />
+    </div>
+
+    <div class="container white z-depth-2">
+      <ul class="tabs teal">
+        <li class="tab col s3">
+          <a class="white-text active" href="#login">login</a>
+        </li>
+      </ul>
+      <div id="login" class="col s12">
+        <form class="col s12 px-5">
+          <div class="form-container">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate" />
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <br />
+            <center>
+              <button
+                class="btn waves-effect waves-light teal"
+                type="submit"
+                name="action"
+              >
+                Continue
+              </button>
+              <br />
+              <br />
+            </center>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  </body>
+</html>
